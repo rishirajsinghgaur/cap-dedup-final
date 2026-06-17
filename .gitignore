@@ -1,7 +1,0 @@
-__pycache__/
-*.pyc
-*.pyo
-.DS_Store
-.ipynb_checkpoints/
-datasets/*
-!datasets/.gitkeep
