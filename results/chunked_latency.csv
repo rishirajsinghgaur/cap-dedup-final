@@ -1,0 +1,4 @@
+N,n_chunks,chunk_size,budget_per_chunk,total_kept,total_savings_pct,elapsed_total_s,throughput_samples_per_s,ms_per_sample
+250000,25,10000,3000,75000,70.0,5.74,43573.7,0.0229
+500000,50,10000,3000,150000,70.0,11.98,41719.8,0.024
+1000000,100,10000,3000,300000,70.0,19.65,50891.2,0.0196

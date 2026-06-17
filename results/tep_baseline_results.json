@@ -1,0 +1,416 @@
+{
+  "metadata": {
+    "timestamp": "2025-11-10T03:10:00.601262Z",
+    "sample_sizes": [
+      10000
+    ],
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "high_threshold": 0.15,
+    "storage_savings_recalculated": "2025-11-28T06:58:01.954293",
+    "storage_savings_formula": "((total_samples - preserved_count) / total_samples) * 100.0"
+  },
+  "results": [
+    {
+      "LSH": {
+        "safety_recall": 0.5666666666666667,
+        "storage_savings_pct": 14.01,
+        "duplicate_pairs_found": 5644,
+        "preserved_critical": 1700,
+        "total_critical": 3000
+      },
+      "MinHash": {
+        "safety_recall": 1.0,
+        "storage_savings_pct": 0.13999999999999999,
+        "duplicate_pairs_found": 7,
+        "preserved_critical": 3000,
+        "total_critical": 3000
+      },
+      "Cosine": {
+        "safety_recall": 0.5666666666666667,
+        "storage_savings_pct": 14.01,
+        "duplicate_pairs_found": 34159,
+        "preserved_critical": 1700,
+        "total_critical": 3000
+      },
+      "VERDUP": {
+        "safety_recall": 1.0,
+        "storage_savings_pct": 0.13999999999999999,
+        "duplicate_pairs_found": 7,
+        "preserved_critical": 3000,
+        "total_critical": 3000
+      },
+      "IsolationForest": {
+        "safety_recall": 0.33,
+        "storage_savings_pct": 90.0,
+        "duplicate_pairs_found": 441000,
+        "preserved_critical": 990,
+        "total_critical": 3000
+      },
+      "sample_size": 10000,
+      "seed": 42
+    },
+    {
+      "LSH": {
+        "safety_recall": 0.5876666666666667,
+        "storage_savings_pct": 13.41,
+        "duplicate_pairs_found": 5273,
+        "preserved_critical": 1763,
+        "total_critical": 3000
+      },
+      "MinHash": {
+        "safety_recall": 0.9993333333333333,
+        "storage_savings_pct": 0.12,
+        "duplicate_pairs_found": 6,
+        "preserved_critical": 2998,
+        "total_critical": 3000
+      },
+      "Cosine": {
+        "safety_recall": 0.5876666666666667,
+        "storage_savings_pct": 13.41,
+        "duplicate_pairs_found": 30077,
+        "preserved_critical": 1763,
+        "total_critical": 3000
+      },
+      "VERDUP": {
+        "safety_recall": 0.9993333333333333,
+        "storage_savings_pct": 0.12,
+        "duplicate_pairs_found": 6,
+        "preserved_critical": 2998,
+        "total_critical": 3000
+      },
+      "IsolationForest": {
+        "safety_recall": 0.332,
+        "storage_savings_pct": 90.0,
+        "duplicate_pairs_found": 441000,
+        "preserved_critical": 996,
+        "total_critical": 3000
+      },
+      "sample_size": 10000,
+      "seed": 43
+    },
+    {
+      "LSH": {
+        "safety_recall": 0.5583333333333333,
+        "storage_savings_pct": 13.900000000000002,
+        "duplicate_pairs_found": 5640,
+        "preserved_critical": 1675,
+        "total_critical": 3000
+      },
+      "MinHash": {
+        "safety_recall": 1.0,
+        "storage_savings_pct": 0.08,
+        "duplicate_pairs_found": 4,
+        "preserved_critical": 3000,
+        "total_critical": 3000
+      },
+      "Cosine": {
+        "safety_recall": 0.5583333333333333,
+        "storage_savings_pct": 13.900000000000002,
+        "duplicate_pairs_found": 34509,
+        "preserved_critical": 1675,
+        "total_critical": 3000
+      },
+      "VERDUP": {
+        "safety_recall": 1.0,
+        "storage_savings_pct": 0.08,
+        "duplicate_pairs_found": 4,
+        "preserved_critical": 3000,
+        "total_critical": 3000
+      },
+      "IsolationForest": {
+        "safety_recall": 0.3303333333333333,
+        "storage_savings_pct": 90.0,
+        "duplicate_pairs_found": 441000,
+        "preserved_critical": 991,
+        "total_critical": 3000
+      },
+      "sample_size": 10000,
+      "seed": 44
+    },
+    {
+      "LSH": {
+        "safety_recall": 0.5663333333333334,
+        "storage_savings_pct": 14.01,
+        "duplicate_pairs_found": 5673,
+        "preserved_critical": 1699,
+        "total_critical": 3000
+      },
+      "MinHash": {
+        "safety_recall": 1.0,
+        "storage_savings_pct": 0.1,
+        "duplicate_pairs_found": 5,
+        "preserved_critical": 3000,
+        "total_critical": 3000
+      },
+      "Cosine": {
+        "safety_recall": 0.5663333333333334,
+        "storage_savings_pct": 14.01,
+        "duplicate_pairs_found": 32378,
+        "preserved_critical": 1699,
+        "total_critical": 3000
+      },
+      "VERDUP": {
+        "safety_recall": 1.0,
+        "storage_savings_pct": 0.1,
+        "duplicate_pairs_found": 5,
+        "preserved_critical": 3000,
+        "total_critical": 3000
+      },
+      "IsolationForest": {
+        "safety_recall": 0.333,
+        "storage_savings_pct": 90.0,
+        "duplicate_pairs_found": 441000,
+        "preserved_critical": 999,
+        "total_critical": 3000
+      },
+      "sample_size": 10000,
+      "seed": 45
+    },
+    {
+      "LSH": {
+        "safety_recall": 0.576,
+        "storage_savings_pct": 13.59,
+        "duplicate_pairs_found": 5508,
+        "preserved_critical": 1728,
+        "total_critical": 3000
+      },
+      "MinHash": {
+        "safety_recall": 0.9993333333333333,
+        "storage_savings_pct": 0.06,
+        "duplicate_pairs_found": 3,
+        "preserved_critical": 2998,
+        "total_critical": 3000
+      },
+      "Cosine": {
+        "safety_recall": 0.576,
+        "storage_savings_pct": 13.59,
+        "duplicate_pairs_found": 32899,
+        "preserved_critical": 1728,
+        "total_critical": 3000
+      },
+      "VERDUP": {
+        "safety_recall": 0.9993333333333333,
+        "storage_savings_pct": 0.06,
+        "duplicate_pairs_found": 3,
+        "preserved_critical": 2998,
+        "total_critical": 3000
+      },
+      "IsolationForest": {
+        "safety_recall": 0.3323333333333333,
+        "storage_savings_pct": 90.0,
+        "duplicate_pairs_found": 441000,
+        "preserved_critical": 997,
+        "total_critical": 3000
+      },
+      "sample_size": 10000,
+      "seed": 46
+    },
+    {
+      "LSH": {
+        "safety_recall": 0.5853333333333334,
+        "storage_savings_pct": 13.26,
+        "duplicate_pairs_found": 5330,
+        "preserved_critical": 1756,
+        "total_critical": 3000
+      },
+      "MinHash": {
+        "safety_recall": 0.9993333333333333,
+        "storage_savings_pct": 0.18,
+        "duplicate_pairs_found": 9,
+        "preserved_critical": 2998,
+        "total_critical": 3000
+      },
+      "Cosine": {
+        "safety_recall": 0.5853333333333334,
+        "storage_savings_pct": 13.26,
+        "duplicate_pairs_found": 28192,
+        "preserved_critical": 1756,
+        "total_critical": 3000
+      },
+      "VERDUP": {
+        "safety_recall": 0.9993333333333333,
+        "storage_savings_pct": 0.18,
+        "duplicate_pairs_found": 9,
+        "preserved_critical": 2998,
+        "total_critical": 3000
+      },
+      "IsolationForest": {
+        "safety_recall": 0.3323333333333333,
+        "storage_savings_pct": 90.0,
+        "duplicate_pairs_found": 441000,
+        "preserved_critical": 997,
+        "total_critical": 3000
+      },
+      "sample_size": 10000,
+      "seed": 47
+    },
+    {
+      "LSH": {
+        "safety_recall": 0.567,
+        "storage_savings_pct": 13.83,
+        "duplicate_pairs_found": 5278,
+        "preserved_critical": 1701,
+        "total_critical": 3000
+      },
+      "MinHash": {
+        "safety_recall": 0.9993333333333333,
+        "storage_savings_pct": 0.1,
+        "duplicate_pairs_found": 5,
+        "preserved_critical": 2998,
+        "total_critical": 3000
+      },
+      "Cosine": {
+        "safety_recall": 0.567,
+        "storage_savings_pct": 13.83,
+        "duplicate_pairs_found": 27722,
+        "preserved_critical": 1701,
+        "total_critical": 3000
+      },
+      "VERDUP": {
+        "safety_recall": 0.9993333333333333,
+        "storage_savings_pct": 0.1,
+        "duplicate_pairs_found": 5,
+        "preserved_critical": 2998,
+        "total_critical": 3000
+      },
+      "IsolationForest": {
+        "safety_recall": 0.332,
+        "storage_savings_pct": 90.0,
+        "duplicate_pairs_found": 441000,
+        "preserved_critical": 996,
+        "total_critical": 3000
+      },
+      "sample_size": 10000,
+      "seed": 48
+    },
+    {
+      "LSH": {
+        "safety_recall": 0.5736666666666667,
+        "storage_savings_pct": 13.55,
+        "duplicate_pairs_found": 5403,
+        "preserved_critical": 1721,
+        "total_critical": 3000
+      },
+      "MinHash": {
+        "safety_recall": 0.9993333333333333,
+        "storage_savings_pct": 0.08,
+        "duplicate_pairs_found": 4,
+        "preserved_critical": 2998,
+        "total_critical": 3000
+      },
+      "Cosine": {
+        "safety_recall": 0.5736666666666667,
+        "storage_savings_pct": 13.55,
+        "duplicate_pairs_found": 29767,
+        "preserved_critical": 1721,
+        "total_critical": 3000
+      },
+      "VERDUP": {
+        "safety_recall": 0.9993333333333333,
+        "storage_savings_pct": 0.08,
+        "duplicate_pairs_found": 4,
+        "preserved_critical": 2998,
+        "total_critical": 3000
+      },
+      "IsolationForest": {
+        "safety_recall": 0.332,
+        "storage_savings_pct": 90.0,
+        "duplicate_pairs_found": 441000,
+        "preserved_critical": 996,
+        "total_critical": 3000
+      },
+      "sample_size": 10000,
+      "seed": 49
+    },
+    {
+      "LSH": {
+        "safety_recall": 0.5816666666666667,
+        "storage_savings_pct": 13.420000000000002,
+        "duplicate_pairs_found": 5574,
+        "preserved_critical": 1745,
+        "total_critical": 3000
+      },
+      "MinHash": {
+        "safety_recall": 0.9993333333333333,
+        "storage_savings_pct": 0.16,
+        "duplicate_pairs_found": 8,
+        "preserved_critical": 2998,
+        "total_critical": 3000
+      },
+      "Cosine": {
+        "safety_recall": 0.5816666666666667,
+        "storage_savings_pct": 13.420000000000002,
+        "duplicate_pairs_found": 30999,
+        "preserved_critical": 1745,
+        "total_critical": 3000
+      },
+      "VERDUP": {
+        "safety_recall": 0.9993333333333333,
+        "storage_savings_pct": 0.16,
+        "duplicate_pairs_found": 8,
+        "preserved_critical": 2998,
+        "total_critical": 3000
+      },
+      "IsolationForest": {
+        "safety_recall": 0.33166666666666667,
+        "storage_savings_pct": 90.0,
+        "duplicate_pairs_found": 441000,
+        "preserved_critical": 995,
+        "total_critical": 3000
+      },
+      "sample_size": 10000,
+      "seed": 50
+    },
+    {
+      "LSH": {
+        "safety_recall": 0.576,
+        "storage_savings_pct": 13.639999999999999,
+        "duplicate_pairs_found": 5396,
+        "preserved_critical": 1728,
+        "total_critical": 3000
+      },
+      "MinHash": {
+        "safety_recall": 1.0,
+        "storage_savings_pct": 0.13999999999999999,
+        "duplicate_pairs_found": 7,
+        "preserved_critical": 3000,
+        "total_critical": 3000
+      },
+      "Cosine": {
+        "safety_recall": 0.576,
+        "storage_savings_pct": 13.639999999999999,
+        "duplicate_pairs_found": 30561,
+        "preserved_critical": 1728,
+        "total_critical": 3000
+      },
+      "VERDUP": {
+        "safety_recall": 1.0,
+        "storage_savings_pct": 0.13999999999999999,
+        "duplicate_pairs_found": 7,
+        "preserved_critical": 3000,
+        "total_critical": 3000
+      },
+      "IsolationForest": {
+        "safety_recall": 0.33,
+        "storage_savings_pct": 90.0,
+        "duplicate_pairs_found": 441000,
+        "preserved_critical": 990,
+        "total_critical": 3000
+      },
+      "sample_size": 10000,
+      "seed": 51
+    }
+  ],
+  "last_updated": "2025-11-10T06:38:15.861717Z"
+}

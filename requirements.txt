@@ -1,0 +1,45 @@
+# CAP-Dedup: Conformal Anomaly Preservation with Submodular Coverage Coreset
+# Pinned-floor versions verified in our 10-seed TEP/SKAB reproducibility runs
+# under Python 3.11. Newer minor versions are likely compatible but not tested.
+
+# ---- Core scientific stack ----
+numpy>=1.24,<3
+pandas>=2.0,<4
+scipy>=1.11,<2
+scikit-learn>=1.3,<2
+
+# ---- Deep learning (CPU-only sufficient; we set CUDA_VISIBLE_DEVICES="" in scripts) ----
+torch>=2.0,<3
+
+# ---- Efficient similarity search (FAISS HNSW + cosine, used by the coreset stage) ----
+faiss-cpu>=1.7
+
+# ---- Tabular anomaly detection scorer (ECOD - used in Stage 1 of CAP-Dedup) ----
+pyod>=1.1
+
+# ---- Fast columnar I/O (one-time TEP RData -> Parquet conversion) ----
+pyarrow>=14.0
+
+# ---- RData reader (only needed for the initial TEP conversion; not at runtime) ----
+pyreadr>=0.5
+
+# ---- Plotting ----
+matplotlib>=3.7,<4
+seaborn>=0.12,<1
+
+# ---- Statistical tests (Wilcoxon, etc.) ----
+statsmodels>=0.14,<1
+
+# ---- Misc utilities (used by the baseline + sweep scripts) ----
+PyYAML>=6.0
+datasketch>=1.5
+tqdm>=4.64
+joblib>=1.2
+
+# ---- System measurement (cross-platform peak-memory in the latency benchmark) ----
+psutil>=5.9
+
+# ---- Optional ----
+colorlog>=6.6
+# jupyter>=1.0       # for analysis notebooks
+# ipykernel>=6.0
